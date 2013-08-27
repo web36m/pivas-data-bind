@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>PV.dataBind</title>
+	</head>
+	<body>
+		<div class="view" data-module="Layout">
+			<div>
+				Hello {{data.name}} !!!
+				This is a {{data.title}}
+			</div>
+			<input type="text" data-model="data.name" value="" placeholder="name" />
+			<input type="text" data-model="data.title" value="" placeholder="title" />
+			<div data-module="Form">
+				<input type="text" data-model="data.name" value="" placeholder="name" />
+			</div>
+		</div>
+		<script src="js/PV.dataBind.js" type="text/javascript"></script>
+	</body>
+</html>
